@@ -34,4 +34,5 @@ const scaffoldConfig = {
   onlyLocalBurnerWallet: true,
 } as const satisfies ScaffoldConfig;
 
+export const defaultNetwork = "localhost";
 export default scaffoldConfig;
